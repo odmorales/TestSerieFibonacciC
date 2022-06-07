@@ -8,7 +8,9 @@ namespace SerieFibonacci // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Serie serieService = new Serie();
-            serieService.GetSerie(10);
+            int[] serie = serieService.GetSerie(0);
+
+            Console.WriteLine(serie[0]);
         }
     }
 }

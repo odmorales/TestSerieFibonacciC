@@ -2,14 +2,15 @@
 {
     public class Serie
     {
-        public int[] getSerie(int numero)
+        public int[] GetSerie(int numero)
         {
             int a = 0, b, tmp;
             int[] serie = new int[numero];
 
+            if(numero > 0) { serie[0] = 0; } else { return new int[] { 0 }; }
+            
             b = 1;
 
-            serie[0] = 0;
             for (int i = 1; i < numero; i++)
             {
                 tmp = a + b;
@@ -21,5 +22,7 @@
 
             return serie;
         }
+
+        
     }
 }

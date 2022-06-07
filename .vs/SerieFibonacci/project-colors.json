@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d818000e-eff8-4b7b-9258-30903eba1d4a": {
+      "ProjectGuid": "d818000e-eff8-4b7b-9258-30903eba1d4a",
+      "DisplayName": "SerieFibonacci",
+      "ColorIndex": 0
+    },
+    "9f30448a-7e5a-44d6-ac46-ac6048a033e4": {
+      "ProjectGuid": "9f30448a-7e5a-44d6-ac46-ac6048a033e4",
+      "DisplayName": "TestSerieFibonacci",
+      "ColorIndex": 1
+    },
+    "8ac31b08-3653-4f18-9aff-d7097de50871": {
+      "ProjectGuid": "8ac31b08-3653-4f18-9aff-d7097de50871",
+      "DisplayName": "Logica",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
